@@ -13,7 +13,8 @@ class DivisionProblem:
         remainder = 0
         #### Write your solution below thes comments ########
         #### Only edit between the comments #################
-
+        result = num1 // num2
+        remainder = num1 % num2
         
         #### Write your solution above this line ############
         return result, remainder
@@ -33,7 +34,10 @@ class DivisionProblem:
         remainder = 0
         #### Write your solution below thes comments ########
         #### Only edit between the comments #################
-
+        remainder = num1
+        while remainder >= num2:
+            result += 1
+            remainder -= num2
         
         #### Write your solution above this line ############
         return result, remainder
