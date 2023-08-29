@@ -59,7 +59,7 @@ class TestDivisitionProblem(unittest.TestCase):
             divisor = random.randint(1, 10)
             num1 = num2 * divisor
         else:
-            num2 = random.randint(1, 1000)
+            num1 = random.randint(1, 1000)
         return num1, num2
     
     def computeActuals(num1, num2):
